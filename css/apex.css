@@ -1,0 +1,558 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body {    
+    font-family: 'DM Serif Display', serif;
+    background-image: url(https://gmedia.playstation.com/is/image/SIEPDC/apex-legends-features-section-background-desktop-tablet-01-ps4-en-06feb19?$native$);
+    background-color: #910000; 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* added background image */
+
+p {
+    color : #ffaa00 ;
+    font-family: 'Playfair Display', serif;
+    font-size: 25px;
+    font-weight: 100;
+}
+/* added color to my text and a font */
+
+
+nav {
+    background-color: rgba(0, 0, 0, 0.2);
+    /* list-style-type: none; */
+/*     border: 1px solid white; */
+    /* display: inline; */
+    margin: 0px 30px 0px 30px; /* TOP RIGHT BOTTOM LEFT */
+    color: #ffaa00;
+    text-align: center; 
+    font-size: 35px;
+    border-bottom-right-radius: 35px;
+    border-top-left-radius: 35px;
+}
+
+nav li {
+    list-style-type: none;
+    display: inline;
+}
+
+nav.legends li {
+    display: block;
+}
+
+nav.legends {
+    position: fixed;
+    right: 30px;
+    width: 300px;
+}
+
+nav ul {
+    padding: 10px;
+    /* border-bottom-right-radius: 35px;
+    border-top-left-radius: 35px; */
+    display: inline;
+}
+/*made the nav bar transparent and rounded two corners of the nav bar*/
+
+li a:hover { 
+    background-color: rgb(255, 191, 0);
+    padding: 10px;
+}
+
+nav a {
+    padding: 10px;
+    color: aliceblue;
+    text-decoration: none;
+}
+/*added color to my nav bar text */
+
+
+.header {
+    /* border-width: 1px;
+    border-style: solid;
+    border-color: yellow; */
+    width: 993px;
+    margin: 0 auto 0 auto; /* Top, right, bottom, left */
+}
+
+.header img {
+    width: 125px;
+    height: 125px;
+    background:none;
+    /* border: 1px solid white; */
+}
+
+.header h1 {
+   color:white;
+   /* border: 1px solid white; */
+   text-align: center;
+}
+
+
+
+h1 {
+    font-size: 80px;
+    display: inline;
+} 
+
+h1.apex { 
+    position:absolute;
+    left: 750px;
+
+}
+
+h2 { 
+    font-size: 85px;
+    padding: 95px;
+}
+
+ h2:hover {
+    color: orange;
+    cursor: pointer;
+} 
+
+p { 
+    text-indent: 25px; 
+}
+/* legends in each section */
+
+section#gibraltar{
+    background-image: url(https://wallpapercave.com/dwp2x/wp5695029.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+
+
+section#bloodhound{
+    background-image: url(https://wallpapercave.com/wp/wp5694698.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+section#lifeline{
+    background-image: url(https://assets2.rockpapershotgun.com/apex-concept-art-wallpaper-lifeline.png/BROK/resize/1760%3E/format/jpg/quality/80/apex-concept-art-wallpaper-lifeline.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+section#pathfinder{
+    background-image: url(https://wallpapercave.com/wp/wp5700024.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+section#pathfinder p, section#gibraltar p,section#bloodhound p,section#lifeline p,section#bangalore p,section#wraith p {
+    color:black;
+    text-shadow: 0 0 3px white;
+    font-size: 50px;
+    font-weight: 600;
+}
+section#bangalore{
+    background-image: url(https://wallpaperaccess.com/full/6539390.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+}
+
+section#wraith{
+    background-image: url(https://wallpapercave.com/dwp2x/wp4573144.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+footer.index {
+    position:absolute; 
+    width:100%; 
+    text-align: center;
+    padding: 30px;
+    font-size: 30px; 
+    color:black;
+    background-color: purple;
+}
+
+section#pathfinder p:hover  {
+    color:#B4A33B;
+    text-shadow: 2px 2px 3px white;
+    font-size: 50px;
+}
+
+section#gibraltar p{
+    color:#A9B1BC;
+    text-shadow: 0 0 3px blue;
+    font-size: 50px;
+}
+
+section#gibraltar p:hover{
+    color:blue;
+    text-shadow: 2px 2px 3px #A9B1BC;
+    font-size: 50px;
+    cursor: pointer;
+}
+
+section#bloodhound p:hover {
+    color:black;
+    text-shadow: 2px 2px 3px #8C2E1D;
+    font-size: 50px;
+}
+
+section#lifeline p:hover {
+    color:black;
+    text-shadow: 2px 2px 3px #DA8B8F;
+    font-size: 50px;
+}
+
+section#bangalore p:hover  {
+    color:#584437;
+    text-shadow: 2px 2px 3px black;
+    font-size: 50px;
+    
+}
+
+section#wraith p:hover  {
+    color:#9C656B;
+    text-shadow: 2px 2px 3px white;
+    font-size: 50px;
+    
+}
+
+p {
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-bottom: 50px;
+}
+
+section#r301list {
+    font-size: 35px;
+    list-style-type: none;
+}
+
+section#wraith h2 { 
+font-size: 85px;
+padding: 95px;
+color:white;
+}
+
+section#wraith h2:hover {
+    color: #9C656B;
+    cursor: pointer;
+    text-shadow: 2px 2px 3px white;
+}
+
+section#bangalore h2 { 
+    font-size: 85px;
+    padding: 95px;
+    color:black;
+}
+    
+section#bangalore h2:hover {
+    color: #584437;
+    cursor: pointer;
+    text-shadow: 2px 2px 3px black;
+}
+
+section#pathfinder h2 { 
+    font-size: 85px;
+    padding: 95px;
+    color:white;
+}
+    
+section#pathfinder h2:hover {
+    color: #B4A33B;
+    cursor: pointer;
+    text-shadow: 2px 2px 3px black;
+}
+
+section#lifeline h2 { 
+    font-size: 85px;
+    padding: 95px;
+    color: black;
+}
+    
+section#lifeline h2:hover {
+    color: #DA8B8F;
+    cursor: pointer;
+    text-shadow: 2px 2px 3px black;
+}
+
+section#bloodhound h2 { 
+    font-size: 85px;
+    padding: 95px;
+    color: #8C2E1D;
+}
+    
+section#bloodhound h2:hover {
+    color: slategray;
+    cursor: pointer;
+    text-shadow: 2px 2px 3px black;
+}
+
+section#gibraltar h2 { 
+    font-size: 85px;
+    padding: 95px;
+    color: gainsboro;
+}
+    
+section#gibraltar h2:hover {
+    color: blue;
+    cursor: pointer;
+    text-shadow: 2px 2px 3px white;
+}
+
+
+/*mobile styles*/
+@media only screen and (max-width: 450px){
+    *{
+        box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        -msbox-sizing: border-box;
+    }
+    body{
+       overflow-x: hidden;
+    }
+    img{
+       max-width:100%;
+    }
+   
+    video {
+        display:center;
+       width: 450px;
+       height: 450px;
+       ;
+    }
+    h1.apex {
+        display: none;
+    }
+    h1 {
+        text-align: center;
+        font-size: 30px;
+        display: inline;
+    }
+
+    .header img {
+        width: 45px;
+        height: 45px;
+        background:none;
+    }
+
+    img.imageLeft {
+        margin-left: 32px;
+    }   
+
+
+    section#pathfinder img, section#gibraltar img,section#bloodhound img,section#lifeline img , section#bangalore img,section#wraith img 
+    { 
+        width: 185px ;
+        height: 185px ;
+
+        
+    }
+   
+    section#pathfinder h2, section#gibraltar h2,section#bloodhound h2,section#lifeline h2 , section#bangalore h2,section#wraith h2 
+    {
+        font-size: 30px;
+        padding-left: 15px;
+        padding-top: 15px;
+        
+    }
+    
+    section#pathfinder h2:hover, section#gibraltar h2:hover,section#bloodhound h2:hover,section#lifeline h2:hover , section#bangalore h2:hover,section#wraith h2:hover
+     {
+        color: orange;
+        cursor: pointer;
+    } 
+    section#pathfinder p, section#gibraltar p,section#bloodhound p,section#lifeline p,section#bangalore p,section#wraith p{
+        font-size: 25px;
+    }
+
+    nav {
+        background-color: rgba(0, 0, 0, 0.2);
+        /* list-style-type: none; */
+    /*     border: 1px solid white; */
+        /* display: inline; */
+        margin: 0px 30px 0px 30px; /* TOP RIGHT BOTTOM LEFT */
+        color: #ffaa00;
+        text-align: center; 
+        font-size: 22px;
+        border-bottom-right-radius: 35px;
+        border-top-left-radius: 35px;
+    }
+
+    li a:hover { 
+        background-color: rgb(255, 191, 0);
+        padding: 10px;
+    }
+
+    section#allguns img { 
+        width: 450px;
+        height: 285px;
+        
+    }
+
+    h2 {
+        font-size: 35px;
+    }
+
+    .header {
+        width: 100%;
+    }
+
+    nav.legends {
+        position: fixed;
+        right: 10px;
+        width: 180px;
+    }
+
+    section#allguns ul {
+        padding-left: 100px;
+        list-style: none;
+     }
+
+     section#allguns {
+        font-size: 22px;
+       
+
+    }
+    
+    section#allguns p {
+        font-size: 25px;
+        margin-top: 30px;
+       
+
+    }
+}
+
+
+/* tablet styles*/
+@media only screen and (min-width: 768px) and (max-width:1024px){
+    *{
+        box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        -msbox-sizing: border-box;
+    }
+    body{
+       overflow-x: hidden;
+    }
+    img{
+       width: 100px;
+       height: 100px;
+    }
+   
+    video {
+        display:center;
+       width: 770px;
+       height: 770px;
+       ;
+    }
+    h1.apex {
+        display: none;
+    }
+    h1 {
+        text-align: center;
+        font-size: 30px;
+        display: inline;
+    }
+
+    .header img {
+        width: 45px;
+        height: 45px;
+        background:none;
+    }
+
+    img.imageLeft {
+        margin-left: 198px;
+    }   
+
+
+    section#pathfinder img, section#gibraltar img,section#bloodhound img,section#lifeline img , section#bangalore img,section#wraith img 
+    { 
+        width: 310px ;
+        height: 310px ;
+
+        
+    }
+   
+    section#pathfinder h2, section#gibraltar h2,section#bloodhound h2,section#lifeline h2 , section#bangalore h2,section#wraith h2 
+    {
+        font-size: 30px;
+        padding-left: 15px;
+        padding-top: 15px;
+        
+    }
+    
+    section#pathfinder h2:hover, section#gibraltar h2:hover,section#bloodhound h2:hover,section#lifeline h2:hover , section#bangalore h2:hover,section#wraith h2:hover
+     {
+        color: orange;
+        cursor: pointer;
+    } 
+    section#pathfinder p, section#gibraltar p,section#bloodhound p,section#lifeline p,section#bangalore p,section#wraith p{
+        font-size: 25px;
+    }
+
+    nav {
+        background-color: rgba(0, 0, 0, 0.2);
+        /* list-style-type: none; */
+    /*     border: 1px solid white; */
+        /* display: inline; */
+        margin: 0px 30px 0px 30px; /* TOP RIGHT BOTTOM LEFT */
+        color: #ffaa00;
+        text-align: center; 
+        font-size: 22px;
+        border-bottom-right-radius: 35px;
+        border-top-left-radius: 35px;
+    }
+
+    li a:hover { 
+        background-color: rgb(255, 191, 0);
+        padding: 10px;
+    }
+
+    section#allguns img { 
+        width: 770px;
+        height: 450px;
+       
+    }
+
+    section#allguns {
+        font-size: 28px;
+       
+
+    }
+    
+    section#allguns ul {
+        padding-left: 100px;
+        list-style: none;
+
+
+    }
+
+    section#allguns p {
+        font-size: 35px;
+        margin-top: 30px;
+    }
+
+    h2 {
+        font-size: 35px;
+    }
+
+    nav.legends {
+        position: fixed;
+        right: 10px;
+        width: 180px;
+    }
+
+    .header {
+        /* border-width: 1px;
+        border-style: solid;
+        border-color: yellow; */
+        width: 100%;
+        margin: 0 auto 0 auto; /* Top, right, bottom, left */
+    }
+
+
+
+}
